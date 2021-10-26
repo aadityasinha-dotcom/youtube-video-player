@@ -4,7 +4,7 @@ class SearchBar extends React.Component {
     onInputChange (event) {
         console.log(event.target.value);
     }
-    // chail peelo frands
+    // chai peelo frands
 
     render() {
         return (
