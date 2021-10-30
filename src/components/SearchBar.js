@@ -2,6 +2,7 @@ import React from "react";
 
 class SearchBar extends React.Component {
     state = { term: '' };
+    //hello frands
 
     render() {
         return (
