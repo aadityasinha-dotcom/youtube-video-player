@@ -12,7 +12,7 @@ class SearchBar extends React.Component {
                         <input 
                             type="text" 
                             values={this.state.term} 
-                            onChange={(e) => this.setState({ term: e.target.value })} 
+                            onChange={(e) => this.setState({ term: e.target.value.toUpperCase() })} 
                         />
                     </div>
                 </form>
