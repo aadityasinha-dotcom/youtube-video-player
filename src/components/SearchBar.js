@@ -8,6 +8,7 @@ class SearchBar extends React.Component {
         console.log(this.state.term);
     }
 
+    
     render() {
         return (
             <div className="ui segment">
