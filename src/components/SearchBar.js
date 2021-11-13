@@ -7,8 +7,7 @@ class SearchBar extends React.Component {
         event.preventDefault();  //page does'nt refresh after pressing enter
         console.log(this.state.term);
     }
-
-    
+        
     render() {
         return (
             <div className="ui segment">
