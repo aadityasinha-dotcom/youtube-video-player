@@ -6,7 +6,7 @@ class App extends React.Component {
     onSearchSubmit(term) {
         axios.get('http://api.unsplash.com/search/photos',{
             headers: {
-                Authorization: 'Client-ID'
+                Authorization: 'Client-ID'     //client id
             }
         });
     }
