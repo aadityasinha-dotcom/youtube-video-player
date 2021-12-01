@@ -3,7 +3,7 @@ import React from "react";
 class SearchBar extends React.Component {
     state = { term: '' };
 
-    onFormSubmit = (event) => {
+    onFormSubmit = event => {
         event.preventDefault();  //page does'nt refresh after pressing enter
         this.props.onSubmit(this.state.term);
     };
