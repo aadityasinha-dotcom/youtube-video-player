@@ -10,7 +10,7 @@ class App extends React.Component {
                 Authorization: 'Client-ID'     //client id
             }
         }).then((response) => {
-
+            
         })
     }
 
