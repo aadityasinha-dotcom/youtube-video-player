@@ -11,7 +11,7 @@ class App extends React.Component {
             }
         })
         .then((response) => {
-            console.log(response);
+            console.log(response.data.results);
         });
     }
 
