@@ -12,7 +12,7 @@ class App extends React.Component {
             }
         });
 
-        console.log(responce.data.result)
+        console.log(responce.data.result);
     }
 
     render() {
