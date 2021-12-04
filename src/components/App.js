@@ -14,6 +14,8 @@ class App extends React.Component {
         });
 
         console.log(responce.data.result);
+
+        this.state.images.map
     }
 
     render() {
