@@ -13,9 +13,7 @@ class App extends React.Component {
             }
         });
 
-        console.log(responce.data.result);
-
-        this.state.images.map
+        this.setState({ images: response.data.results })
     }
 
     render() {
