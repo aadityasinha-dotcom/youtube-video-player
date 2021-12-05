@@ -19,6 +19,7 @@ class App extends React.Component {
         return (
             <div className="ui container" style={{marginTop: '10px'}}>
                 <SearchBar onSumbit={this.onSearchSubmit} />
+                Found: {this.state.images.length}
             </div>
         );
     }
