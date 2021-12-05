@@ -1,5 +1,5 @@
 import React from "react";
-import axios from 'axios';
+import unsplash from "../api/unsplash";
 import SearchBar from "./SearchBar";
 
 class App extends React.Component {
@@ -8,7 +8,7 @@ class App extends React.Component {
 
     onSearchSubmit = async (term) => {
         const responce = await axios.get('/search/photos',{
-            params: { query: term }
+            params: { query: term },
         });
 
         console.log(this);
