@@ -8,10 +8,9 @@ class App extends React.Component {
 
     onSearchSubmit = async (term) => {
         const responce = await axios.get('/search/photos',{
-            params: { query: term },
+            params: { query: term }
         });
 
-        console.log(this);
         this.setState({ images: response.data.results });
     }
 
