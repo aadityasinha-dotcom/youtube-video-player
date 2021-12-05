@@ -24,6 +24,7 @@ class App extends React.Component {
                  onSumbit={this.onSearchSubmit} 
                  guesswhtIam="Im the propsobject"
                 />
+                Found: {this.state.images.length} images
             </div>
         );
     }
