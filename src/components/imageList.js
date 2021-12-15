@@ -1,3 +1,4 @@
+import './ImageL'
 import React from "react";
 
 const ImageList = (props) => {
