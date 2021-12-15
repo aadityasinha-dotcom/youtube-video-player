@@ -6,7 +6,7 @@ const ImageList = (props) => {
         return <img alt={description} key={id} src={url.regular} />
     });
     
-    return <div className='Image-List'>{images}</div>
+    return <div className='image-list'>{images}</div>
 };
 
 export default ImageList;
