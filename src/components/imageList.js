@@ -1,4 +1,4 @@
-import './ImageList.css';
+import './imageList.css';
 import React from 'react';
 import ImageCard from './ImageCard';
 
