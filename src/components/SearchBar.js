@@ -7,7 +7,7 @@ class SearchBar extends React.Component {
         this.setState({ term: event.target.value });
     };
 
-    onFormSubmit = (event) => {   //method to submit input
+    onFormSubmit = (event) => {   //method to submit input and stop refreshing
         event.preventDefault();
 
         // TODO: make sure we call
