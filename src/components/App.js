@@ -10,8 +10,12 @@ class App extends React.Component {
       params: {
         q: term
       }
-    })
+    });
+
+    this.setState({ videos: response.data.items });
+
   };
+
 
   render () {
     return (
