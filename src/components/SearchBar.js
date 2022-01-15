@@ -7,7 +7,9 @@ class SearchBar extends React.Component {
         this.setState({ term: event.target.value });
     };
 
-
+    onFormSubmit = (event) => {   //method to submit input
+        
+    }
     render () {
         return (
             <div className="search-bar ui segment">
