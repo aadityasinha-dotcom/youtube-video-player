@@ -13,13 +13,15 @@ class App extends React.Component {
     });
 
     this.setState({ videos: response.data.items });
-
+    
   };
 
 
   render () {
     return (
-      <div><SearchBar onFormSubmit={this.onTermSubmit} /></div>
+      <div><SearchBar onFormSubmit={this.onTermSubmit} />
+        I have {this.state.videos.length} videos.
+      </div>
     );
   }
 }
