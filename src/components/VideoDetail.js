@@ -18,7 +18,7 @@ const VideoDetail = ({ video }) => {
       </div>
       <div className="ui segment">
         hello
-        <p>{video.snippet.comments}</p>
+        <p>{video.id.videoId}</p>
       </div>
     </div>
   );
