@@ -2,7 +2,7 @@ import React from "react";
 import CommentItem from "./CommentItem";
 
 const CommentList = ({ comments }) => {
-  if (!comments) {
+  if (comments==null) {
     return <div>Loading..</div>;
   }
   const renderComments = comments.map(comment => {

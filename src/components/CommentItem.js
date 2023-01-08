@@ -5,6 +5,7 @@ const CommentItem = ({ comment }) => {
     <div>
       <div className="comment">
         <div className="content">
+          hello
           <div className="header">{comment.snippet.topLevelComment.snippet.textOriginal}</div>
         </div>
       </div>
