@@ -3,11 +3,10 @@ import axios from "axios";
 const KEY = "AIzaSyCDqySC5ZtHDmykg1tDqmTzJEAtMthW4HQ";
 
 export default axios.create({
-  baseURL: "https://www.googleapis.com/youtube/v3",
+  baseURL: "https://youtube.googleapis.com/youtube/v3/commentThreads",
   params: {
-    part: "snippet",
-    type: "video",
-    maxResults: 30,
+    part: "snippet, replies",
+    maxResults: 3,
     key: KEY,
   },
 });
